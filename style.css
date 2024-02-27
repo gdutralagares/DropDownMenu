@@ -5,13 +5,12 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url(background2.jpg);
-  background-size:cover;
-  background-position:initial;
+
+  background-color: #fff;
   font-family: sans-serif;
 }
 .menu-bar {
-  background: rgb(0, 100, 0);
+  background: 	#00BFFF;
   text-align: center;
 }
 .menu-bar ul {
@@ -29,7 +28,7 @@ body{
   color: #fff;
 }
 .active, .menu-bar ul li:hover{
-  background: #2bab0d;
+  background: #1E90FF;
   border-radius: 3px;
 }
 .sub-menu-1{
@@ -38,7 +37,7 @@ body{
 .menu-bar ul li:hover .sub-menu-1{
   display: block;
   position: absolute;
-  background: rgb(0, 100, 0);
+  background:#00BFFF;
   margin-top: 15px;
   margin-left: -15px;
 }
@@ -58,7 +57,7 @@ body{
   border-bottom: none;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
-  color: #2bab0d;
+  color: #E0FFFF;
 }
 .bx-chevron-right{
   float: right;
@@ -72,8 +71,16 @@ body{
   position: absolute;
   margin-top: -40px;
   margin-left: 140px ;
-  background:  rgb(0, 100, 0);;
+  background:  #1E90FF;
 }
 .bx-chevron-down{
   font-size: 15px;
+}
+
+.imagem img{
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: 56px;
+  width: 72%;
 }
